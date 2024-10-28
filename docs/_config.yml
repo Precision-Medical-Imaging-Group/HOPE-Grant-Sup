@@ -3,4 +3,4 @@ logo: /assets/img/CN_Vrt_RGB_HiRes_Lg.png
 description: 
 show_downloads: false
 google_analytics:
-theme: jekyll-theme-minimal
+theme: slate
