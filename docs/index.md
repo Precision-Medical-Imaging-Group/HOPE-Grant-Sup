@@ -3,7 +3,9 @@ layout: default
 ---
 # HOPE Platform Overview
 
-![HOPE Platform Overview](./assets/img/ToBeUpdted.png)
+Welcome to the supplementary information of the HOPE platform. 
+
+![HOPE Platform Overview](./assets/img/OverviewHOPEPlatfrom.png)
 
 
 # HOPE Microservices Sequence Diagram
