@@ -9,7 +9,7 @@ Welcome to additional information on the HOPE platform.
 
 # HOPE Segmenter CBTN AWS Integration Diagram
 
-<video width="720" controls>
+<video width="640" controls>
   <source src="./assets/video/CBTN_Demo.mp4" type="video/mp4">
 </video>
 
