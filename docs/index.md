@@ -9,11 +9,11 @@ Welcome to additional information on the HOPE platform.
 
 # HOPE Segmenter CBTN AWS Integration Diagram
 
-<video width="640" controls>
+<video width="600" controls>
   <source src="./assets/video/CBTN_Demo.mp4" type="video/mp4">
 </video>
 
-![CBTN AWS Integration Diagram](./assets/img/SageMakerEndpoint.png) 
+<img src="./assets/img/SageMakerEndpoint.png" width="600" />
 
 The implementation can be found on [GitHub](https://github.com/Precision-Medical-Imaging-Group/BraTS2024-PEDS).
 
