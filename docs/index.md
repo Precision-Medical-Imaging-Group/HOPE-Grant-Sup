@@ -22,7 +22,7 @@ The following workflow outlines a streamlined data pipeline to facilitate MRI im
 ### 1. User Uploads MRI Data
 <div align="justify"> 
 The user accesses a secure web platform to upload NIFTI files, which contain MRI series data necessary for analysis.
-
+</div>
 ### 2. File Transfer to S3 Proxy Bucket
 <div align="justify"> 
 The backend of the web application transfers the uploaded files to an Amazon S3 bucket. This S3 bucket acts as an intermediary storage solution, or “proxy location,” facilitating data flow between the web platform and the machine learning model. The backend polls a designated S3 folder within this bucket to retrieve prediction results, which will be generated later in the workflow (see Step 7).
@@ -38,7 +38,7 @@ Upon invocation, a file downloader script embedded in the model’s entry point 
 ### 5. Model Processing
 <div align="justify"> 
 The BraTS model is triggered, producing segmentation results based on the uploaded MRI data. These outputs are stored in a local `/output` directory.
-
+</div>
 ### 6. Uploading Results to S3 Proxy Bucket
 <div align="justify"> 
 The file uploader module then transfers the segmentation results from the `/output` directory back to the S3 proxy bucket, where they can be accessed by the web application backend.
