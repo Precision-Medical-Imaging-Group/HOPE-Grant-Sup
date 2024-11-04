@@ -7,36 +7,11 @@ Welcome to additional information on the HOPE platform.
 
 ![HOPE Platform Overview](./assets/img/OverviewHOPEPlatform.png)
 
-
-# HOPE Microservices Sequence Diagram
-
-![HOPE Sequence Diagram](./assets/img/MicroservicesTime.png)
-
-The diagram represents a sequence of interactions in a microservices-based system for MRI segmentation and processing. Here’s a brief overview of each component and its role:
-
-### User & Interactive Web App
-The user uploads MRI files via a web application, initiating the segmentation process. The app then communicates with the backend services to track and retrieve processing statuses and results.
-
-### API Gateway:
-Acts as an entry point for all backend requests. It coordinates the workflow by managing requests between the web app and the microservices, such as initiating preprocessing, running models, and fetching results.
-
-### BraTS Preprocessor
- Prepares the MRI files for further analysis by fetching, processing, and uploading them. It performs initial processing steps to optimize the MRI data for harmonization and segmentation.
-
-### HAIL Harmonizer
-Enhances data consistency across different MRI formats and sources by applying harmonization techniques. It processes and uploads the harmonized data, preparing it for segmentation.
-
-### HOPE Segmenter
-The core segmentation model analyzes the harmonized MRI data to produce detailed segmentation results, which are essential for medical analysis.
-
-### Database
-Stores processed data and segmentation results, allowing the API gateway to fetch and display the final output for the user.
-
-Each service communicates through the API Gateway, ensuring secure, modular, and efficient data flow across the entire processing pipeline. The user is notified at key steps, and the final segmentation results are available for download or viewing.
-
-
-
 # HOPE Segmenter CBTN AWS Integration Diagram
+
+<video height="240" controls>
+  <source src="./assets/video/CBTN_Demo.mp4" type="video/mp4">
+</video>
 
 ![CBTN AWS Integration Diagram](./assets/img/SageMakerEndpoint.png) 
 
@@ -66,3 +41,28 @@ The file uploader module then transfers the segmentation results from the `/outp
 The web application backend detects the presence of these prediction results in the S3 bucket and downloads them, making the processed data available to the end-user on the platform.
 
 
+# HOPE Microservices Sequence Diagram
+
+![HOPE Sequence Diagram](./assets/img/MicroservicesTime.png)
+
+The diagram represents a sequence of interactions in a microservices-based system for MRI segmentation and processing. Here’s a brief overview of each component and its role:
+
+### User & Interactive Web App
+The user uploads MRI files via a web application, initiating the segmentation process. The app then communicates with the backend services to track and retrieve processing statuses and results.
+
+### API Gateway:
+Acts as an entry point for all backend requests. It coordinates the workflow by managing requests between the web app and the microservices, such as initiating preprocessing, running models, and fetching results.
+
+### BraTS Preprocessor
+ Prepares the MRI files for further analysis by fetching, processing, and uploading them. It performs initial processing steps to optimize the MRI data for harmonization and segmentation.
+
+### HAIL Harmonizer
+Enhances data consistency across different MRI formats and sources by applying harmonization techniques. It processes and uploads the harmonized data, preparing it for segmentation.
+
+### HOPE Segmenter
+The core segmentation model analyzes the harmonized MRI data to produce detailed segmentation results, which are essential for medical analysis.
+
+### Database
+Stores processed data and segmentation results, allowing the API gateway to fetch and display the final output for the user.
+
+Each service communicates through the API Gateway, ensuring secure, modular, and efficient data flow across the entire processing pipeline. The user is notified at key steps, and the final segmentation results are available for download or viewing.
