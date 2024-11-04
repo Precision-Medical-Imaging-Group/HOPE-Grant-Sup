@@ -16,7 +16,7 @@ Welcome to additional information on the HOPE platform.
 <img src="./assets/img/SageMakerEndpoint.png" width="600" />
 
 The implementation can be found on [GitHub](https://github.com/Precision-Medical-Imaging-Group/BraTS2024-PEDS).
-
+<div align="justify"> 
 The following workflow outlines a streamlined data pipeline to facilitate MRI image processing for predictive analysis. This process enables users to upload imaging data, which is then transferred, processed, and returned through a series of automated steps-
 
 ### 1. User Uploads MRI Data
@@ -39,13 +39,13 @@ The file uploader module then transfers the segmentation results from the `/outp
 
 ### 7. Detection and Download of Prediction Results
 The web application backend detects the presence of these prediction results in the S3 bucket and downloads them, making the processed data available to the end-user on the platform.
-
+</div>
 
 # HOPE Microservices Sequence Diagram
 
 ![HOPE Sequence Diagram](./assets/img/MicroservicesTime.png)
-
-The diagram represents a sequence of interactions in a microservices-based system for MRI segmentation and processing. Here’s a brief overview of each component and its role:
+<div align="justify"> 
+The diagram represents a sequence of interactions in a microservices-based MRI segmentation and processing system. Here’s a brief overview of each component and its role:
 
 ### User & Interactive Web App
 The user uploads MRI files via a web application, initiating the segmentation process. The app then communicates with the backend services to track and retrieve processing statuses and results.
@@ -66,3 +66,4 @@ The core segmentation model analyzes the harmonized MRI data to produce detailed
 Stores processed data and segmentation results, allowing the API gateway to fetch and display the final output for the user.
 
 Each service communicates through the API Gateway, ensuring secure, modular, and efficient data flow across the entire processing pipeline. The user is notified at key steps, and the final segmentation results are available for download or viewing.
+</div>
