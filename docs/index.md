@@ -13,7 +13,7 @@ Welcome to additional information on the HOPE platform.
   <source src="./assets/video/CBTN_Demo.mp4" type="video/mp4">
 </video>
 
-<img src="./assets/img/SageMakerEndpoint.png" width="640" />
+<img src="./assets/img/SageMakerEndpoint.png" width="900" />
 
 The implementation can be found on [GitHub](https://github.com/Precision-Medical-Imaging-Group/BraTS2024-PEDS).
 
