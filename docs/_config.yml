@@ -3,6 +3,6 @@ logo: /assets/img/CN_Vrt_RGB_HiRes_Lg.png
 description: Platform Overview
 show_downloads: false
 google_analytics:
-remote_theme: pages-themes/minima
+remote_theme: jekyll/minima
 plugins:
 - jekyll-remote-theme
