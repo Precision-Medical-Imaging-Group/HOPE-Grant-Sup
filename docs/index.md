@@ -16,9 +16,9 @@ Welcome to additional information on the HOPE platform.
 <img src="./assets/img/SageMakerEndpoint.png" width="640" />
 
 The implementation can be found on [GitHub](https://github.com/Precision-Medical-Imaging-Group/BraTS2024-PEDS).
-<div align="justify"> 
-The following workflow outlines a streamlined data pipeline to facilitate MRI image processing for predictive analysis. This process enables users to upload imaging data, which is then transferred, processed, and returned through a series of automated steps-
-</div>
+
+The following workflow outlines a streamlined data pipeline to facilitate MRI image processing for predictive analysis. This process enables users to upload imaging data, which is then transferred, processed, and returned through a series of automated steps.
+
 ### 1. User Uploads MRI Data
 <div align="justify"> 
 The user accesses a secure web platform to upload NIFTI files, which contain MRI series data necessary for analysis.
