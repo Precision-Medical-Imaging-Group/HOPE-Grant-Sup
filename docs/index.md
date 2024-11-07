@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-# HOPE Platform Overview
+# Harnessing Artificial Intelligence for Optimized Pediatric Tumor Evaluation (HOPE)
 
 Welcome to additional information on the HOPE platform. 
 
