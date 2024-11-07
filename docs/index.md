@@ -4,10 +4,8 @@ layout: default
 # HOPE Platform Overview
 
 Welcome to additional information on the HOPE platform. 
-{% comment %}
+
 ![HOPE Platform Overview](./assets/img/OverviewHOPEPlatform.png)
-{% endcomment %}
-<img src="./assets/img/OverviewHOPEPlatform.png" width="800" />
 
 # HOPE Segmenter CBTN AWS Integration Diagram
 
